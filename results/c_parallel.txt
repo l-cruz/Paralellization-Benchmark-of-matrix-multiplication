@@ -1,0 +1,228 @@
+
+=== Dense 64x64 ===
+Run 1: 0.003 s
+Run 2: 0.000 s
+Run 3: 0.000 s
+Run 4: 0.000 s
+Run 5: 0.000 s
+Mean: 0.001 s
+
+=== Dense 128x128 ===
+Run 1: 0.001 s
+Run 2: 0.001 s
+Run 3: 0.001 s
+Run 4: 0.001 s
+Run 5: 0.001 s
+Mean: 0.001 s
+
+=== Dense 256x256 ===
+Run 1: 0.008 s
+Run 2: 0.010 s
+Run 3: 0.010 s
+Run 4: 0.012 s
+Run 5: 0.010 s
+Mean: 0.010 s
+
+=== Dense 512x512 ===
+Run 1: 0.046 s
+Run 2: 0.042 s
+Run 3: 0.042 s
+Run 4: 0.037 s
+Run 5: 0.037 s
+Mean: 0.041 s
+
+=== Dense 768x768 ===
+Run 1: 0.134 s
+Run 2: 0.135 s
+Run 3: 0.198 s
+Run 4: 0.129 s
+Run 5: 0.141 s
+Mean: 0.147 s
+
+=== Dense 1024x1024 ===
+Run 1: 0.378 s
+Run 2: 0.380 s
+Run 3: 0.399 s
+Run 4: 0.407 s
+Run 5: 0.378 s
+Mean: 0.388 s
+
+=== Sparse (sparsity = 0.1) ===
+--- N=64 ---
+Run 1: 0.001 s
+Run 2: 0.000 s
+Run 3: 0.001 s
+Run 4: 0.000 s
+Run 5: 0.000 s
+Mean: 0.000 s
+--- N=128 ---
+Run 1: 0.002 s
+Run 2: 0.002 s
+Run 3: 0.002 s
+Run 4: 0.001 s
+Run 5: 0.002 s
+Mean: 0.002 s
+--- N=256 ---
+Run 1: 0.013 s
+Run 2: 0.013 s
+Run 3: 0.013 s
+Run 4: 0.011 s
+Run 5: 0.011 s
+Mean: 0.012 s
+--- N=512 ---
+Run 1: 0.086 s
+Run 2: 0.079 s
+Run 3: 0.089 s
+Run 4: 0.076 s
+Run 5: 0.095 s
+Mean: 0.085 s
+--- N=768 ---
+Run 1: 0.271 s
+Run 2: 0.260 s
+Run 3: 0.279 s
+Run 4: 0.318 s
+Run 5: 0.274 s
+Mean: 0.280 s
+--- N=1024 ---
+Run 1: 0.678 s
+Run 2: 0.665 s
+Run 3: 0.724 s
+Run 4: 0.728 s
+Run 5: 0.709 s
+Mean: 0.701 s
+
+=== Sparse (sparsity = 0.5) ===
+--- N=64 ---
+Run 1: 0.001 s
+Run 2: 0.000 s
+Run 3: 0.000 s
+Run 4: 0.001 s
+Run 5: 0.001 s
+Mean: 0.001 s
+--- N=128 ---
+Run 1: 0.002 s
+Run 2: 0.003 s
+Run 3: 0.002 s
+Run 4: 0.003 s
+Run 5: 0.002 s
+Mean: 0.002 s
+--- N=256 ---
+Run 1: 0.014 s
+Run 2: 0.020 s
+Run 3: 0.020 s
+Run 4: 0.022 s
+Run 5: 0.017 s
+Mean: 0.019 s
+--- N=512 ---
+Run 1: 0.135 s
+Run 2: 0.134 s
+Run 3: 0.119 s
+Run 4: 0.127 s
+Run 5: 0.125 s
+Mean: 0.128 s
+--- N=768 ---
+Run 1: 0.401 s
+Run 2: 0.411 s
+Run 3: 0.411 s
+Run 4: 0.409 s
+Run 5: 0.397 s
+Mean: 0.406 s
+--- N=1024 ---
+Run 1: 0.997 s
+Run 2: 0.978 s
+Run 3: 0.978 s
+Run 4: 0.968 s
+Run 5: 0.974 s
+Mean: 0.979 s
+
+=== Sparse (sparsity = 0.9) ===
+--- N=64 ---
+Run 1: 0.000 s
+Run 2: 0.001 s
+Run 3: 0.000 s
+Run 4: 0.001 s
+Run 5: 0.000 s
+Mean: 0.000 s
+--- N=128 ---
+Run 1: 0.001 s
+Run 2: 0.001 s
+Run 3: 0.001 s
+Run 4: 0.001 s
+Run 5: 0.001 s
+Mean: 0.001 s
+--- N=256 ---
+Run 1: 0.004 s
+Run 2: 0.004 s
+Run 3: 0.005 s
+Run 4: 0.004 s
+Run 5: 0.004 s
+Mean: 0.004 s
+--- N=512 ---
+Run 1: 0.034 s
+Run 2: 0.031 s
+Run 3: 0.029 s
+Run 4: 0.028 s
+Run 5: 0.028 s
+Mean: 0.030 s
+--- N=768 ---
+Run 1: 0.110 s
+Run 2: 0.112 s
+Run 3: 0.114 s
+Run 4: 0.115 s
+Run 5: 0.129 s
+Mean: 0.116 s
+--- N=1024 ---
+Run 1: 0.245 s
+Run 2: 0.238 s
+Run 3: 0.237 s
+Run 4: 0.241 s
+Run 5: 0.242 s
+Mean: 0.241 s
+
+=== Optimized 64x64 ===
+Run 1: 0.001 s
+Run 2: 0.000 s
+Run 3: 0.000 s
+Run 4: 0.000 s
+Run 5: 0.000 s
+Mean: 0.000 s
+
+=== Optimized 128x128 ===
+Run 1: 0.001 s
+Run 2: 0.001 s
+Run 3: 0.001 s
+Run 4: 0.001 s
+Run 5: 0.001 s
+Mean: 0.001 s
+
+=== Optimized 256x256 ===
+Run 1: 0.007 s
+Run 2: 0.005 s
+Run 3: 0.005 s
+Run 4: 0.005 s
+Run 5: 0.005 s
+Mean: 0.005 s
+
+=== Optimized 512x512 ===
+Run 1: 0.035 s
+Run 2: 0.036 s
+Run 3: 0.037 s
+Run 4: 0.034 s
+Run 5: 0.035 s
+Mean: 0.035 s
+
+=== Optimized 768x768 ===
+Run 1: 0.118 s
+Run 2: 0.114 s
+Run 3: 0.114 s
+Run 4: 0.116 s
+Run 5: 0.117 s
+Mean: 0.116 s
+
+=== Optimized 1024x1024 ===
+Run 1: 0.271 s
+Run 2: 0.263 s
+Run 3: 0.265 s
+Run 4: 0.272 s
+Run 5: 0.265 s
+Mean: 0.267 s
