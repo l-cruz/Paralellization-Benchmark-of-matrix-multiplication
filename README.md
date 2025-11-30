@@ -1,1 +1,0 @@
-# Paralellization-Benchmark-of-matrix-multiplication
